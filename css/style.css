@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6rem;
+    color: #394141;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .logo{
+      color: white;
+      font-family: 'The Nautigal', cursive;
+  }
+
+  .bg-dark {
+    background-color: #383636;
+    color: #fff;
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  #navbar .logo img {
+    width: 80px;
+    display: block;
+  
+  }
+    
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  #navbar ul li a {
+    padding: 1rem;
+    color: #fff;
+  }
+  
+  #navbar ul li a:hover {
+    background-color: #FF2E63;
+    border-radius: 5px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .py-1 { 
+    padding: 1.5rem 0;
+  }
+
+  
+  #showcase {
+    background: #252A34 url(../img/home.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+  }
+
+  .showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1.5rem;
+  
+    /* overlay */
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .l-heading {
+    font-size: 3rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+  
+  .primary-text {
+    color: #FF2E63;
+  }
+
+  
+.box-shadow {
+    box-shadow: 0 0 2px #252A34;
+  }
+
+  
+/* Section: About */
+#about .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   
+  #about .about-content div, 
+  #about .about-content img {
+    flex: 1;
+  }
+  
+  #about .about-content img {
+    display: block;
+    width: 50%;
+    border: 5px solid #fff;
+    margin-left: 1rem;
+  }
+
+  .m-heading {
+    font-size: 2rem;
+    line-height: 2;
+  }  
+  
+
+  
+.bg-light {
+    background-color: #EAEAEA;
+  }
+
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  /* cta */
+  .lead {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  #cta {
+    background: #252A34 url(../img/cta1.jpg) no-repeat center center/cover;
+    color: #fff;
+  }
+  
+  #cta .cta-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.6);
+   }
+
+   .l-heading {
+    font-size: 3rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+  .p-1 {
+    padding: 1.5rem;
+  }
+  
+
+  #drinks .boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #drinks .boxes .box {
+    flex: 1;
+  }
+  
+  #drinks .boxes .box img {
+    width: 70px;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 100%;
+    color: #252A34;
+  }
+
+  /* Dishes */
+#dishes .dish-boxes {
+  display: flex;
+
+}
+
+#dishes .dish-boxes .dish-box {
+  flex: 1;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+#dishes .dish-boxes .dish-box img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#dishes .dish-boxes .dish-box ul {
+  display: flex;
+  list-style: none;
+}
+
+#dishes .dish-boxes .dish-box ul li {
+  margin-right: 0.75rem;
+}
+
+#dishes .dish-boxes .dish-box ul li i {
+  color: #252A34;
+}
+
+#dishes .dish-boxes .dish-box ul li i:hover {
+  color: #FF2E63;
+}
+
+/* Contact  */
+#contact {
+  display: flex;
+}
+
+#contact .contact-us, 
+#contact .map  {
+  flex: 1;
+}
+
+#contact .contact-us input, 
+#contact .contact-us textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+#contact .contact-us .form-group {
+  display: flex;
+}
+
+#contact .contact-us .form-group input[type="text"] {
+  margin-right: 0.75rem;
+}
+
+.btn-dark {
+  background-color: #252A34;
+}
+
+.btn {
+  background-color: #3c3f3f;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.bg-primary {
+  background-color:#383636;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #FF2E63;
+}
+.map{
+    flex: center;
+  } 
+
+  /* Section: About */
+#contact .map {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+#contact .map div, 
+#contact .map img {
+  flex: 1;
+} 
+
+#contact .map img {
+  display: block;
+  width: 80%;
+  height: 80vh;
+  border: 5px solid rgb(255, 255, 255);
+  margin-left: 1rem;
+} 
+
+.py-10 { 
+  padding: 0.3rem 0;
+  
+}
